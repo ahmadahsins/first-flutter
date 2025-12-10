@@ -35,12 +35,12 @@ class _CoffeePrefsState extends State<CoffeePrefs> {
                 "assets/img/coffee_bean.png",
                 width: 25,
                 colorBlendMode: BlendMode.multiply,
-                color: Colors.brown[100],
+                color: Colors.brown[200],
               ),
             Expanded(child: SizedBox()),
             TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.brown[200],
+                backgroundColor: Colors.brown,
                 foregroundColor: Colors.white,
               ),
               onPressed: increaseStrength,
@@ -57,12 +57,12 @@ class _CoffeePrefsState extends State<CoffeePrefs> {
                 "assets/img/sugar_cube.png",
                 width: 25,
                 colorBlendMode: BlendMode.multiply,
-                color: Colors.brown[100],
+                color: Colors.brown[200],
               ),
             Expanded(child: SizedBox()),
             TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.brown[200],
+                backgroundColor: Colors.brown,
                 foregroundColor: Colors.white,
               ),
               onPressed: increaseSugars,

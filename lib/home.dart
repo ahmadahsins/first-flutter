@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_project/coffee_card.dart';
 import 'package:test_project/coffee_prefs.dart';
 
 class Home extends StatelessWidget {
@@ -17,13 +18,18 @@ class Home extends StatelessWidget {
         children: [
           Container(
             padding: EdgeInsets.all(20),
-            color: Colors.brown[200],
+            color: Colors.brown[100],
             child: const Text("Good Morning, User!"),
+          ),
+          Container(
+            color: Colors.brown[200],
+            padding: const EdgeInsets.all(20),
+            child: CoffeePrefs(),
           ),
           Container(
             color: Colors.brown[100],
             padding: const EdgeInsets.all(20),
-            child: CoffeePrefs(),
+            child: CoffeeCard(),
           ),
         ],
       ),
